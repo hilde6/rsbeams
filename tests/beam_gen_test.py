@@ -8,7 +8,7 @@ from rsbeams.ptcl_beam import RsPtclBeam6D
 def test_beam_gen():
 
     # specify physical properties of the beam
-    num_ptcls = 1000
+    num_ptcls = 2000
     design_p_ev = 271e+6
     total_charge_c = 3.05e-09
     mass_ev = rsconst.m_e_EV
